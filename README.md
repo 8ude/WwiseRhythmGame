@@ -6,14 +6,15 @@ This is the project repo for the BabyCastles academy class on creating Rhythm Ga
 [Slides are available here](https://docs.google.com/presentation/d/1fQVSYs5EKnu26jL4AQlMtb9-fXGOVe64DrgLHwGRwdE/edit?usp=sharing)
 
 Tech used:
+
 Wwise version 2021.1.1.xxx
 
 Unity version 2020.3.2
 
-Familiarity + Pace
+### Familiarity + Pace
 I'm hoping this is will be a pretty approachable workshop, but the example project might feel a bit high-level to new+beginner Unity users.  I'll try to slow down if I'm going too fast.  If we don't get to everything, you'll at least have the project repo to draw from.
 
-We're using two rather big and clunky pieces of software (both Unity and Wwise take years to fully master).  I'm hoping we can at least get them "good enough" to do what we need them for - creating rhythm games!
+We're using two rather big and clunky pieces of software (both Unity and Wwise take years to fully master).  I'm hoping you can at least get them working "good enough" to do what we need them for - creating rhythm games!
 
 Try to have Unity and Wwise installed before the class starts.  Unity is a big installer and can take a while.
 
