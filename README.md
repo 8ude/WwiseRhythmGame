@@ -3,13 +3,17 @@ A Sample Rhythm Game for Babycastles Academy
 
 This is the project repo for the BabyCastles academy class on creating Rhythm Games in Unity/Wwise!
 
-[Slides are available here](https://docs.google.com/presentation/d/1fQVSYs5EKnu26jL4AQlMtb9-fXGOVe64DrgLHwGRwdE/edit?usp=sharing)
+Corey Bertelsen
+@super8ude
+crbertelsen@gmail.com
 
-Tech used:
+### [Slides are available here](https://docs.google.com/presentation/d/1fQVSYs5EKnu26jL4AQlMtb9-fXGOVe64DrgLHwGRwdE/edit?usp=sharing)
+
+### Tech used:
 
 Wwise version 2021.1.1.xxx
 
-Unity version 2020.3.2
+Unity version 2020.3.2 or later
 
 ### Familiarity + Pace
 I'm hoping this is will be a pretty approachable workshop, but the example project might feel a bit high-level to new+beginner Unity users.  I'll try to slow down if I'm going too fast.  If we don't get to everything, you'll at least have the project repo to draw from.
@@ -45,7 +49,19 @@ Try to have Unity and Wwise installed before the class starts.  Unity is a big i
 
 # Software Set Up:
 
+## Unity
+
+The quickest way to download Unity is [through this link](https://unity3d.com/unity/qa/lts-releases?version=2020.3).  This might overwrite your old version of Unity, so be careful if you already have it!
+
+The longer, Unity-sanctioned method is to [go to this link](https://store.unity.com/download?ref=personal) and download Unity Hub.  You'll probably have to create a Unity ID.
+
+Then, in Unity Hub: 
+- go to "Installs"
+- click "Add"
+- choose the recommended release (2020.3.8 LTS as of writing)
+- add any build platforms that make sense for your work - you can add more later.
+
 ## Wwise
 
 1. [Register/Make an account](https://www.audiokinetic.com/sign-in/) 
-2. 
+2. Download the Wwise Launcher (
