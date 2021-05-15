@@ -6,7 +6,8 @@ This is the project repo for the BabyCastles academy class on creating Rhythm Ga
 [Slides are available here](https://docs.google.com/presentation/d/1fQVSYs5EKnu26jL4AQlMtb9-fXGOVe64DrgLHwGRwdE/edit?usp=sharing)
 
 Tech used:
-Wwise version 2021.1.1.something
+Wwise version 2021.1.1.xxx
+
 Unity version 2020.3.2
 
 Familiarity + Pace
