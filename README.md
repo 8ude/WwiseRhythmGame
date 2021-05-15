@@ -41,7 +41,9 @@ Try to have Unity and Wwise installed before the class starts.  Unity is a big i
   - (maybe, if we have time) using MIDI and incorporating sustain events
 
 
-Wwise set up:
+# Software Set Up:
+
+## Wwise
 
 1. [Register/Make an account](https://www.audiokinetic.com/sign-in/) 
 2. 
