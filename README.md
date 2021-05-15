@@ -67,7 +67,7 @@ Then, in Unity Hub:
 
 1. [Register/Make an account](https://www.audiokinetic.com/sign-in/) 
 2. Login and [Download the Wwise Launcher](https://www.audiokinetic.com/download/)
-3. In the wwise launcher, go to the Wwise Tab and go to "Install New Version".  Select the 2021.x version.  [WwiseVersion](https://user-images.githubusercontent.com/6278122/118379039-bc668a00-b5a5-11eb-9070-5f78683fb098.png)
+3. In the wwise launcher, go to the Wwise Tab and go to "Install New Version".  Select the 2021.x version.  ![WwiseVersion](https://user-images.githubusercontent.com/6278122/118379039-bc668a00-b5a5-11eb-9070-5f78683fb098.png)
 4. In the next page, left hand column, you only need the Authoring Tool. If you eventually want to incorporate Wwise into your own games, you'll need the SDK. But that's much bigger, so maybe worry about that later.  In the right hand column, select the platforms you want to build for.
 5. In the next page, scroll down and uncheck everything.  We're not using plugins, and this is trying to sell you stuff.
 6. Then hit Install!
