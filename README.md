@@ -53,15 +53,21 @@ Try to have Unity and Wwise installed before the class starts.  Unity is a big i
 
 The quickest way to download Unity is [through this link](https://unity3d.com/unity/qa/lts-releases?version=2020.3).  This might overwrite your old version of Unity, so be careful if you already have it!
 
-The longer, Unity-sanctioned method is to [go to this link](https://store.unity.com/download?ref=personal) and download Unity Hub.  You'll probably have to create a Unity ID.
+The longer, Unity-sanctioned method, is to [go to this link](https://store.unity.com/download?ref=personal) and download Unity Hub.  You'll have to create a Unity ID.
 
 Then, in Unity Hub: 
-- go to "Installs"
-- click "Add"
-- choose the recommended release (2020.3.8 LTS as of writing)
-- add any build platforms that make sense for your work - you can add more later.
+1. Go to "Installs"
+2. Click "Add"
+3. Choose the recommended release (2020.3.8 LTS as of writing)
+4. Add any build platforms that make sense for your work - you can add more later.  
+5. It also makes sense to include Visual Studio Community if you don't already have an IDE.
+6. Click "Done" and wait for installation to complete
 
 ## Wwise
 
 1. [Register/Make an account](https://www.audiokinetic.com/sign-in/) 
-2. Download the Wwise Launcher (
+2. Login and [Download the Wwise Launcher](https://www.audiokinetic.com/download/)
+3. In the wwise launcher, go to the Wwise Tab and go to "Install New Version".  Select the 2021.x version.
+4. In the next page, left hand column, you only need the Authoring Tool. If you eventually want to incorporate Wwise into your own games, you'll need the SDK. But that's much bigger, so maybe worry about that later.  In the right hand column, select the platforms you want to build for.
+5. In the next page, scroll down and uncheck everything.  We're not using plugins, and this is trying to sell you stuff.
+6. Then hit Install!
