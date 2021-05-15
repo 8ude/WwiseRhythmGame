@@ -1,5 +1,5 @@
-# WwiseRhythmGame
-Sample Rhythm Game for Babycastles Academy
+# QWOP QWOP Revolution
+A Sample Rhythm Game for Babycastles Academy
 
 This is the project repo for the BabyCastles academy class on creating Rhythm Games in Unity/Wwise!
 
