@@ -56,6 +56,7 @@ public class NoteHighwayWwiseSync : MonoBehaviour
         {
             StartMuisc();
             feedbackText.text = "Game On!";
+            startedLevel = true;
         }
     }
 

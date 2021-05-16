@@ -108,6 +108,7 @@ public class FallingGem : MonoBehaviour
                 if (wwiseSync.GetMusicTimeInMS() > PerfectWindowStart && wwiseSync.GetMusicTimeInMS() < PerfectWindowEnd)
                 {
                     gemCueState = CueState.Perfect;
+                    Debug.Log("currentPosition: " + transform.position);
                 }
                 //
                 else if (wwiseSync.GetMusicTimeInMS() > GoodWindowEnd)
@@ -116,6 +117,7 @@ public class FallingGem : MonoBehaviour
                 }
                 break;
             case CueState.Perfect:
+
                 if (wwiseSync.GetMusicTimeInMS() > PerfectWindowEnd)
                 {
                     gemCueState = CueState.Good;

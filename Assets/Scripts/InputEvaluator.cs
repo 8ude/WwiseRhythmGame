@@ -76,7 +76,14 @@ public class InputEvaluator : MonoBehaviour
             _rhythmInput.inputString = gemGenerator.fallingGemO.playerInput;
             _rhythmInput.inputTime = wwiseTime;
             CachedInputs.Add(_rhythmInput);
-        }        
+        }
+        if (Input.GetButtonDown(gemGenerator.fallingGemP.playerInput))
+        {
+            RhythmInput _rhythmInput = new RhythmInput();
+            _rhythmInput.inputString = gemGenerator.fallingGemP.playerInput;
+            _rhythmInput.inputTime = wwiseTime;
+            CachedInputs.Add(_rhythmInput);
+        }
 
         //compare inputs to current beatMap windows
 
@@ -159,21 +166,17 @@ public class InputEvaluator : MonoBehaviour
                 break;
             case FallingGem.CueState.Late:
                 feedbackText.text = "Missed!";
+                Debug.Log(gem.playerInput);
                 feedbackText.color = perfectColor;
                 Debug.Log("Missed!");
+
+                newParticles = Instantiate(badParticles, gem.transform.position, Quaternion.identity);
+                Destroy(newParticles, 2f);
+
                 break;
         }
 
 
     }
-
-    void DeployRewardParticles(GameObject _gem)
-    {
-        
-    }
-
-
-
-
 
 }

@@ -148,8 +148,8 @@ MonoBehaviour:
         guid: 2a19300163863b46ba1534143ce01472
       Path: Events\Default Work Unit\PlayNoteHighwayMusic
       maxAttenuation: 0
-      maxDuration: 135.13794
-      minDuration: 135.13794
+      maxDuration: 53.76
+      minDuration: 53.76
     - name: StopNoteHighwayMusic
       guid: 8a022565b158ef4193f049886f0fd62f
       id: 3188186427
