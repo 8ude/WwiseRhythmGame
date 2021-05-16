@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D18E7E1E-DCB6-49A7-8222-43DA8C2CC13F}" SchemaVersion="97">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{D18E7E1E-DCB6-49A7-8222-43DA8C2CC13F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="MusicLevel" ID="{3C661CE8-C9BE-40AC-BD2A-320125BBC0B5}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="MusicLevel" ID="{7FFC1A2B-F5B7-4CE1-8521-C40ECB23B936}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="LowMeter" ID="{BE124899-25CD-4D78-B04D-A7954FE6B44D}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
+				<Effect Name="HighMeter" ID="{B789A4CE-278C-485A-AC88-8096347062BB}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
+				<Effect Name="MusicMeter" ID="{D860CA87-E710-4C36-A082-6586F949548B}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="MusicMeter" ID="{820097C2-CA1A-456A-A6DC-8C7C6983EEC0}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="MusicMeterSequel" ID="{9CC940AD-FEA3-44EB-909E-B707D711920B}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="MusicMeter" ID="{820097C2-CA1A-456A-A6DC-8C7C6983EEC0}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="MidMeter" ID="{0A72583D-5F8C-4D55-9DA1-A6D127A2794D}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
+				<Effect Name="ArpMeter" ID="{2222A22C-C9E6-4ADC-A66E-67D3EBF339A9}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="ReleaseTime" Type="Real32" Value="0"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="ArpLevel" ID="{91A3A00C-9B03-4D62-8341-23BFF36209ED}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="ReleaseTime" Type="Real32" Value="0"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="ArpMeter" ID="{BFFFA190-2CBF-4F6A-9118-AF3720B7EF76}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="ArpGain" ID="{3332FCB5-4419-4753-93FA-999DAA55AF1C}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+					<PropertyList>
+						<Property Name="FullBandGain" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{CE2F54BA-DCDA-41DA-A27F-4F1B064347BE}" ShortID="751132189">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ArpOn" ID="{AED5635A-E2EE-4FCA-B6A3-076882B54D3A}" WorkUnitID="{660A95BE-E4F6-4AD4-B093-FA9E3B67E008}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{6A8D8C9F-0661-4BCA-BFAA-CE3B2C5F46B3}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-96.3000030517578</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

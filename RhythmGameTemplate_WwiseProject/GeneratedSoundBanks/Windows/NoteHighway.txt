@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	377537405	PlayNoteHighwayMusic			\Default Work Unit\PlayNoteHighwayMusic	
+	1000191198	JumpSound			\Default Work Unit\JumpSound	
+	1221274415	FallSound			\Default Work Unit\FallSound	
+	2897602606	PlayRhythmHeckinMusic			\Default Work Unit\PlayRhythmHeckinMusic	
+	3188186427	StopNoteHighwayMusic			\Default Work Unit\StopNoteHighwayMusic	
+	3304723600	StopRhythmHeckinMusic			\Default Work Unit\StopRhythmHeckinMusic	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1196964411	ArpOn			\Default Work Unit\ArpOn	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2599099929	ArpGain	Wwise Gain			
+	3308892858	ArpLevel	Wwise Meter			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	509367424	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	563557586	sfx_movement_jump20	C:\Users\crber\Desktop\Teaching-Spring2021\2021GithubRepo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\sfx_movement_jump20_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_movement_jump20		12400
+	808870176	JumpingMusic1	C:\Users\crber\Desktop\Teaching-Spring2021\2021GithubRepo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\JumpingMusic1_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmHeckinMusic\JumpingMusic1\JumpingMusic1		294886
+	881191192	08 Two Bit Boss Battles	C:\Users\crber\Desktop\Teaching-Spring2021\2021GithubRepo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\08 Two Bit Boss Battles_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\DistractingRhythmGame\RhythmGameTemplateMusic\08 Two Bit Boss Battles		1833809
+	1027161693	RhythmGameArp	C:\Users\crber\Desktop\Teaching-Spring2021\2021GithubRepo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\RhythmGameArp_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\DistractingRhythmGame\RhythmGameTemplateMusic\RhythmGameArp		1332697
+	1030516904	TestMidi	C:\Users\crber\Desktop\Teaching-Spring2021\2021GithubRepo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\TestMidi_98F6F069.wmid		\Interactive Music Hierarchy\Default Work Unit\DistractingRhythmGame\RhythmGameTemplateMusic\TestMidi		34
+	1037792397	sfx_sounds_falling1	C:\Users\crber\Desktop\Teaching-Spring2021\2021GithubRepo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\sfx_sounds_falling1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_sounds_falling1		70226
+
