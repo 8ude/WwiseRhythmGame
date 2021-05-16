@@ -70,60 +70,6 @@
 								</ObjectList>
 							</ObjectLists>
 						</MusicTrack>
-						<MusicTrack Name="TestMidi" ID="{433F2750-54B7-4340-9D6D-B590C1311126}" ShortID="172172176">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="MidiTarget">
-									<ObjectRef Name="silence" ID="{D730C87D-6DBA-4FBA-9106-901FBA231DAA}" WorkUnitID="{B553D9F5-1E89-4FB4-8FC5-1BC741D530C4}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="MusicBus" ID="{E04DB227-D907-42ED-9E6C-60F47BB92E65}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MidiFileSource Name="TestMidi" ID="{9081EF51-4107-4D4C-A1F5-86A9D1CA5FD1}" ShortID="455866327">
-									<Language>SFX</Language>
-									<MidiFile>TestMidi.mid</MidiFile>
-									<MediaIDList>
-										<MediaID ID="1030516904"/>
-									</MediaIDList>
-								</MidiFileSource>
-							</ChildrenList>
-							<TransitionList>
-								<MusicTransition Name="Root" ID="{E0C8B3D9-EF2C-44AC-B778-5F2595B86853}">
-									<PropertyList>
-										<Property Name="IsFolder" Type="bool" Value="True"/>
-									</PropertyList>
-									<TransitionInfo/>
-								</MusicTransition>
-							</TransitionList>
-							<ObjectLists>
-								<ObjectList Name="Sequences">
-									<Reference>
-										<Local>
-											<MusicTrackSequence Name="" ID="{5492948C-35BB-4017-9AD3-C62BB9A9A18F}">
-												<ObjectLists>
-													<ObjectList Name="Clips">
-														<Reference>
-															<Local>
-																<MusicClipMidi Name="" ID="{CF1E0F65-9DB9-474E-A080-2EC0D8201C77}">
-																	<PropertyList>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="4000"/>
-																		<Property Name="PlayAt" Type="Real64" Value="8021.69491525424"/>
-																	</PropertyList>
-																</MusicClipMidi>
-															</Local>
-														</Reference>
-													</ObjectList>
-												</ObjectLists>
-											</MusicTrackSequence>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-						</MusicTrack>
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="Cues">

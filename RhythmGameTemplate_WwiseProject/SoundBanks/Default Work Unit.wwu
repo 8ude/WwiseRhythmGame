@@ -7,6 +7,8 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="StopNoteHighwayMusic" ID="{6525028A-58B1-41EF-93F0-49886F0FD62F}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayNoteHighwayMusic" ID="{0130192A-8663-463B-BA15-34143CE01472}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NegFeedback" ID="{28A174BC-BB15-4995-A108-71949436C01E}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PosFeedback" ID="{4235F9A4-DD57-4DB7-B205-163EEFF7DDFA}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -28,6 +28,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PosFeedback" ID="{4235F9A4-DD57-4DB7-B205-163EEFF7DDFA}">
+					<ChildrenList>
+						<Action Name="" ID="{B6882078-EA28-46EC-9C71-66D8F2D104EC}" ShortID="371904715">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PosFeedback" ID="{EFDE47BE-B28C-45DD-BA6A-E98167B657E8}" WorkUnitID="{B553D9F5-1E89-4FB4-8FC5-1BC741D530C4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NegFeedback" ID="{28A174BC-BB15-4995-A108-71949436C01E}">
+					<ChildrenList>
+						<Action Name="" ID="{D5E45B09-942C-4E87-B3A8-B4BFCCA2669B}" ShortID="67100981">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NegFeedback" ID="{0208723B-73F4-403F-B841-1B7FFE8B95B0}" WorkUnitID="{B553D9F5-1E89-4FB4-8FC5-1BC741D530C4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -6,7 +6,9 @@
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\crber\Desktop\BBCAcademy\"/>
 				<Property Name="Event Action List\{0130192A-8663-463B-BA15-34143CE01472}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{07ABA980-6EF3-42D9-88E9-47995FCD7885}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{28A174BC-BB15-4995-A108-71949436C01E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2E88FC22-2872-4ED9-810E-ECBA48E06A06}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4235F9A4-DD57-4DB7-B205-163EEFF7DDFA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6525028A-58B1-41EF-93F0-49886F0FD62F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7144F8F7-D285-42BE-B387-C4D54E3E99D0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
@@ -23,15 +25,15 @@
 					</ValueList>
 				</Property>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
-				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
-				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
+				<Property Name="General\LatestLanguage" Type="int32" Value="0"/>
+				<Property Name="General\LatestPlatform" Type="string" Value=""/>
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="Ufrl0bywTEKoRn37GIabQtMPX6+OxK1InZBCiwXs2/k="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="i2GDPBVRHE+gY/Q6e29kTQ=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\x64_{D6952632-E5C7-4A67-92D5-3F809254F65C} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP14gk+IFkkJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
-				<Property Name="Interactive Music\x64_{F3A552B4-9C9F-4071-B454-D9F7BB887472} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP1pfknoTmx5AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{F3A552B4-9C9F-4071-B454-D9F7BB887472} - SegmentEditorZoomInfo" Type="string" Value="GapLi4C1EEBej8L1KFzzP1pfknoTmx5AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
