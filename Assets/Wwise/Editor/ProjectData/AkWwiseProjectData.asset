@@ -103,7 +103,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 1d163824c600e64381ba4536edf3c11d
     GuidInternal: 
-    m_lastTime: -8585804257475572398
+    m_lastTime: -8585804133336979431
     List:
     - name: NoteHighway
       guid: 8b61833c15511c4fa063f43a7b6f644d
@@ -131,8 +131,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6de5eaaec14eeb48818adbb4695ce2e1
     GuidInternal: 
-    m_lastTime: -8585804257186647374
+    m_lastTime: -8585804133336899655
     List:
+    - name: NegFeedback
+      guid: bc74a12815bb9549a10871949436c01e
+      id: 1658084028
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6de5eaaec14eeb48818adbb4695ce2e1
+      - ElementName: NegFeedback
+        ObjectType: 3
+        guid: bc74a12815bb9549a10871949436c01e
+      Path: Events\Default Work Unit\NegFeedback
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PlayNoteHighwayMusic
       guid: 2a19300163863b46ba1534143ce01472
       id: 377537405
@@ -148,8 +165,25 @@ MonoBehaviour:
         guid: 2a19300163863b46ba1534143ce01472
       Path: Events\Default Work Unit\PlayNoteHighwayMusic
       maxAttenuation: 0
-      maxDuration: 53.76
-      minDuration: 53.76
+      maxDuration: -1
+      minDuration: -1
+    - name: PosFeedback
+      guid: a4f9354257ddb74db205163eeff7ddfa
+      id: 278064396
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6de5eaaec14eeb48818adbb4695ce2e1
+      - ElementName: PosFeedback
+        ObjectType: 3
+        guid: a4f9354257ddb74db205163eeff7ddfa
+      Path: Events\Default Work Unit\PosFeedback
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: StopNoteHighwayMusic
       guid: 8a022565b158ef4193f049886f0fd62f
       id: 3188186427
@@ -165,8 +199,8 @@ MonoBehaviour:
         guid: 8a022565b158ef4193f049886f0fd62f
       Path: Events\Default Work Unit\StopNoteHighwayMusic
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
