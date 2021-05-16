@@ -13,9 +13,10 @@ public class NoteHighwayWwiseSync : MonoBehaviour
 
     //they are also easy to extend if you ever need to pass arguments -- https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html
 
-    public UnityEvent OnR;
-    public UnityEvent OnG;
-    public UnityEvent OnB;
+    public UnityEvent OnQ;
+    public UnityEvent OnW;
+    public UnityEvent OnO;
+    public UnityEvent OnP;
 
     public UnityEvent OnMIDIC4;
     public UnityEvent OnMIDIA4;
@@ -33,11 +34,32 @@ public class NoteHighwayWwiseSync : MonoBehaviour
 
     public bool cIsSustaining = false;
 
+    public UnityEngine.UI.Text feedbackText;
+
+    bool startedLevel = false;
+
 
     //id of the wwise event - using this to get the playback position
     uint playingID;
 
-    void Start()
+
+    private void Start()
+    {
+        //want to make sure we don't double-play the music event
+        startedLevel = false;
+        
+    }
+
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space) && !startedLevel)
+        {
+            StartMuisc();
+            feedbackText.text = "Game On!";
+        }
+    }
+
+    void StartMuisc()
     {
 
         cIsSustaining = false;
@@ -52,6 +74,7 @@ public class NoteHighwayWwiseSync : MonoBehaviour
             //wwise gives you the option of sending messages on musically significant times - beats, bars, etc
 
             (uint)(AkCallbackType.AK_MusicSyncAll
+
             //we use a bitwise operator - the single | - because there are are a couple things we want communicated.  
 
             |
@@ -118,6 +141,8 @@ public class NoteHighwayWwiseSync : MonoBehaviour
 
         
         //Using MIDI Beatmaps!
+        //here are a few examples of how you might use MIDI files to trigger cues
+        //we might not get to these during class
         if (in_info is AkMIDIEventCallbackInfo)
         {
             Debug.Log("midi callback");
@@ -166,45 +191,7 @@ public class NoteHighwayWwiseSync : MonoBehaviour
                 }
             }
         }
-
-        /*
-        //we're going to use this switchboard to fire off different events depending on wwise sends
-        switch (_musicInfo.musicSyncType)
-        {
-            case AkCallbackType.AK_MusicSyncUserCue:
-
-                CustomCues(_musicInfo.userCueName, _musicInfo);
-
-                secondsPerBeat = _musicInfo.segmentInfo_fBeatDuration;
-
-                break;
-            case AkCallbackType.AK_MusicSyncBeat:
-
-
-                OnEveryBeat.Invoke();
-                break;
-            case AkCallbackType.AK_MusicSyncBar:
-                //I want to make sure that the secondsPerBeat is defined on our first measure.
-                secondsPerBeat = _musicInfo.segmentInfo_fBeatDuration;
-                Debug.Log("Seconds Per Beat: " + secondsPerBeat);
-
-                OnEveryBar.Invoke();
-                break;
-
-            case AkCallbackType.AK_MusicSyncGrid:
-                //the grid is defined in Wwise - usually on your playlist.  It can be as small as a 32nd note
-
-                OnEveryGrid.Invoke();
-                break;
-            default:
-                break;
-
-
-        }
-        */
-
-
-            
+    
     }
 
 
@@ -215,22 +202,20 @@ public class NoteHighwayWwiseSync : MonoBehaviour
         switch (cueName)
         {
 
-            case "R":
-                OnR.Invoke();
+            case "Q":
+                OnQ.Invoke();
                 break;
-            case "G":
-                OnG.Invoke();
+            case "W":
+                OnW.Invoke();
                 break;
-            case "B":
-                OnB.Invoke();
+            case "O":
+                OnO.Invoke();
+                break;
+            case "P":
+                OnP.Invoke();
                 break;
             case "LevelEnded":
                 OnLevelEnded.Invoke();
-                break;
-
-            case "A":
-                //put an A function Here 
-                Debug.Log("A stuff");
                 break;
             default:
                 break;

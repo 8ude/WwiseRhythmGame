@@ -18,10 +18,13 @@ public class FallingGemInput
 public class GemGenerator : MonoBehaviour
 {
     //the "cue" here can be a number of things
-    //for now it's just the spawn time offset (in number of beats)
-    //right now, this assumes that each beatEvent will have the same cue offset.
-    //if you don't want this to be the case, have a seperate beatmap/input evaluator pair for these other events
-    //(example - rhythm heaven has varying cue lengths)
+    //for now it's just the spawn time offset - the number of beats that a cue ball is travelling towards the player
+
+    //right now, this assumes that each beatEvent will have the same cue offset. this makes sense in a "note highway" game
+    //for a counter example, the game Rhythm Heaven likes to vary the amount of time between the cue and the action
+    //if you want to vary the cue time, you might program some different kinds of events, when you get a certain cue from wwise.
+
+
     [Header("Cue Offset in Beats")]
     public int cueBeatOffset;
 
@@ -31,9 +34,8 @@ public class GemGenerator : MonoBehaviour
     public int GoodWindowMillis = 100;
     public int PerfectWindowMillis = 50;
 
-    //you can + should mix this up - I chose 3 inputs just to keep things simple
-    //note that you should do a "find references" to find other areas of the code that you should change
-    public FallingGemInput fallingGemR, fallingGemG, fallingGemB;
+    // these classes keep the input, the spawn location, and the gem prefab together
+    public FallingGemInput fallingGemQ, fallingGemW, fallingGemO, fallingGemP;
 
 
     [Header("Assign this - Gems won't work otherwise")]
@@ -47,38 +49,49 @@ public class GemGenerator : MonoBehaviour
 
 
     //We connect these next three methods to relevant events on our Note Highway Wwise Sync
-    public void GenerateRCue()
+    public void GenerateQCue()
     {
         //we need to instantiate the cue, set the desired player input accordingly, and then set the window timings
-        GameObject newCue = Instantiate(fallingGemR.cuePrefab, fallingGemR.cueStartLocation.transform.position, Quaternion.identity);
+        GameObject newCue = Instantiate(fallingGemQ.cuePrefab, fallingGemQ.cueStartLocation.transform.position, Quaternion.identity);
 
         FallingGem fallingGem = newCue.GetComponent<FallingGem>();
 
-        fallingGem.playerInput = fallingGemR.playerInput;
+        fallingGem.playerInput = fallingGemQ.playerInput;
 
         SetGemTimings(fallingGem);
     }
 
-    public void GenerateGCue()
+    public void GenerateWCue()
     {
-        GameObject newCue = Instantiate(fallingGemG.cuePrefab, fallingGemG.cueStartLocation.transform.position, Quaternion.identity);
+        GameObject newCue = Instantiate(fallingGemW.cuePrefab, fallingGemW.cueStartLocation.transform.position, Quaternion.identity);
 
         FallingGem fallingGem = newCue.GetComponent<FallingGem>();
 
-        fallingGem.playerInput = fallingGemG.playerInput;
+        fallingGem.playerInput = fallingGemW.playerInput;
 
         SetGemTimings(fallingGem);
     }
 
     
 
-    public void GenerateBCue()
+    public void GenerateOCue()
     {
-        GameObject newCue = Instantiate(fallingGemB.cuePrefab, fallingGemB.cueStartLocation.transform.position, Quaternion.identity);
+        GameObject newCue = Instantiate(fallingGemO.cuePrefab, fallingGemO.cueStartLocation.transform.position, Quaternion.identity);
 
         FallingGem fallingGem = newCue.GetComponent<FallingGem>();
 
-        fallingGem.playerInput = fallingGemB.playerInput;
+        fallingGem.playerInput = fallingGemO.playerInput;
+
+        SetGemTimings(fallingGem);
+    }
+
+    public void GeneratePCue()
+    {
+        GameObject newCue = Instantiate(fallingGemP.cuePrefab, fallingGemP.cueStartLocation.transform.position, Quaternion.identity);
+
+        FallingGem fallingGem = newCue.GetComponent<FallingGem>();
+
+        fallingGem.playerInput = fallingGemP.playerInput;
 
         SetGemTimings(fallingGem);
     }

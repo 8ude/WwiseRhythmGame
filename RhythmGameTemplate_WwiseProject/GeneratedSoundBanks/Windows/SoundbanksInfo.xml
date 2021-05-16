@@ -11,20 +11,28 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1268211518" Language="SFX" Hash="811133726">
+		<SoundBank Id="1268211518" Language="SFX" Hash="4073652945">
 			<ObjectPath>\SoundBanks\Default Work Unit\NoteHighway</ObjectPath>
 			<ShortName>NoteHighway</ShortName>
 			<Path>NoteHighway.bnk</Path>
 			<IncludedEvents>
-				<Event Id="377537405" Name="PlayNoteHighwayMusic" ObjectPath="\Events\Default Work Unit\PlayNoteHighwayMusic" DurationType="OneShot" DurationMin="135.137939" DurationMax="135.137939">
+				<Event Id="1658084028" Name="NegFeedback" ObjectPath="\Events\Default Work Unit\NegFeedback" DurationType="OneShot" DurationMin="0.337250" DurationMax="0.342729">
 					<IncludedMemoryFiles>
-						<File Id="881191192" Language="SFX">
-							<ShortName>08 Two Bit Boss Battles.wav</ShortName>
-							<Path>SFX\08 Two Bit Boss Battles_696A9007.wem</Path>
+						<File Id="868835711" Language="SFX">
+							<ShortName>NegFeedback.wav</ShortName>
+							<Path>SFX\NegFeedback_10C4C929.wem</Path>
 						</File>
-						<File Id="1027161693" Language="SFX">
-							<ShortName>RhythmGameArp.wav</ShortName>
-							<Path>SFX\RhythmGameArp_696A9007.wem</Path>
+						<File Id="1068532503" Language="SFX">
+							<ShortName>NegFeedback2.wav</ShortName>
+							<Path>SFX\NegFeedback2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="377537405" Name="PlayNoteHighwayMusic" ObjectPath="\Events\Default Work Unit\PlayNoteHighwayMusic" DurationType="OneShot" DurationMin="53.759998" DurationMax="53.759998">
+					<IncludedMemoryFiles>
+						<File Id="523810412" Language="SFX">
+							<ShortName>QWOPRevolution.wav</ShortName>
+							<Path>SFX\QWOPRevolution_696A9007.wem</Path>
 						</File>
 						<File Id="1030516904" Language="SFX">
 							<ShortName>TestMidi.mid</ShortName>
@@ -32,13 +40,30 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="278064396" Name="PosFeedback" ObjectPath="\Events\Default Work Unit\PosFeedback" DurationType="OneShot" DurationMin="1.489396" DurationMax="2.718146">
+					<IncludedMemoryFiles>
+						<File Id="280786844" Language="SFX">
+							<ShortName>PosFeedback3.wav</ShortName>
+							<Path>SFX\PosFeedback3_10C4C929.wem</Path>
+						</File>
+						<File Id="298613979" Language="SFX">
+							<ShortName>PosFeedback4.wav</ShortName>
+							<Path>SFX\PosFeedback4_10C4C929.wem</Path>
+						</File>
+						<File Id="303173552" Language="SFX">
+							<ShortName>PosFeedback1.wav</ShortName>
+							<Path>SFX\PosFeedback1_10C4C929.wem</Path>
+						</File>
+						<File Id="605398013" Language="SFX">
+							<ShortName>PosFeedback2.wav</ShortName>
+							<Path>SFX\PosFeedback2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3188186427" Name="StopNoteHighwayMusic" ObjectPath="\Events\Default Work Unit\StopNoteHighwayMusic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
-			<GameParameters>
-				<GameParameter Id="1196964411" Name="ArpOn" ObjectPath="\Game Parameters\Default Work Unit\ArpOn"/>
-			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="468154207">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3878946395">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

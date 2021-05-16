@@ -1,7 +1,7 @@
 ﻿  using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class RhythmInput
 {
@@ -30,6 +30,14 @@ public class InputEvaluator : MonoBehaviour
 
     public NoteHighwayWwiseSync wwiseSync;
 
+    //visual feedback in the form of particles
+    public GameObject goodParticles;
+    public GameObject badParticles;
+
+    //different colors for particles and feedback text;
+    public Color perfectColor, goodColor, okColor, missedColor;
+
+    public Text feedbackText;
 
 
     void Update()
@@ -42,10 +50,10 @@ public class InputEvaluator : MonoBehaviour
         //2: evaluate every gem that's in play
 
 
-        if (Input.GetButtonDown(gemGenerator.fallingGemR.playerInput))
+        if (Input.GetButtonDown(gemGenerator.fallingGemQ.playerInput))
         {
             RhythmInput _rhythmInput = new RhythmInput();
-            _rhythmInput.inputString = gemGenerator.fallingGemR.playerInput;
+            _rhythmInput.inputString = gemGenerator.fallingGemQ.playerInput;
 
             //might not be necessary?
             _rhythmInput.inputTime = wwiseTime;
@@ -54,18 +62,18 @@ public class InputEvaluator : MonoBehaviour
             Debug.Log("Cached Input: " + _rhythmInput.inputString);
         }
 
-        if(Input.GetButtonDown(gemGenerator.fallingGemG.playerInput))
+        if(Input.GetButtonDown(gemGenerator.fallingGemW.playerInput))
         {
             RhythmInput _rhythmInput = new RhythmInput();
-            _rhythmInput.inputString = gemGenerator.fallingGemG.playerInput;
+            _rhythmInput.inputString = gemGenerator.fallingGemW.playerInput;
             _rhythmInput.inputTime = wwiseTime;
             CachedInputs.Add(_rhythmInput);
         }
 
-        if(Input.GetButtonDown(gemGenerator.fallingGemB.playerInput))
+        if(Input.GetButtonDown(gemGenerator.fallingGemO.playerInput))
         {
             RhythmInput _rhythmInput = new RhythmInput();
-            _rhythmInput.inputString = gemGenerator.fallingGemB.playerInput;
+            _rhythmInput.inputString = gemGenerator.fallingGemO.playerInput;
             _rhythmInput.inputTime = wwiseTime;
             CachedInputs.Add(_rhythmInput);
         }        
@@ -103,29 +111,65 @@ public class InputEvaluator : MonoBehaviour
 
     void ScoreGem(FallingGem gem)
     {
+        GameObject newParticles;
+
+
         switch (gem.gemCueState)
         {
             case FallingGem.CueState.OK:
                 gameScore += 1;
                 Debug.Log("OK!");
+                feedbackText.text = "Ok!";
+                feedbackText.color = okColor;
                 Destroy(gem.gameObject);
+
+                //deploy particles
+                newParticles = Instantiate(goodParticles, gem.transform.position, Quaternion.identity);
+                var main = newParticles.GetComponent<ParticleSystem>().main;
+                main.startColor = okColor;
+                Destroy(newParticles, 2f); 
+
                 break;
             case FallingGem.CueState.Good:
                 gameScore += 2;
                 Debug.Log("Good!");
+                feedbackText.text = "Good!";
+                feedbackText.color = goodColor;
                 Destroy(gem.gameObject);
+
+                //deploy particles
+                newParticles = Instantiate(goodParticles, gem.transform.position, Quaternion.identity);
+                main = newParticles.GetComponent<ParticleSystem>().main;
+                main.startColor = goodColor;
+                Destroy(newParticles, 2f);
+
                 break;
             case FallingGem.CueState.Perfect:
                 gameScore += 3;
                 Debug.Log("Perfect!");
+                feedbackText.text = "Perfect!";
+                feedbackText.color = perfectColor;
                 Destroy(gem.gameObject);
+
+                newParticles = Instantiate(goodParticles, gem.transform.position, Quaternion.identity);
+                main = newParticles.GetComponent<ParticleSystem>().main;
+                main.startColor = perfectColor;
+                Destroy(newParticles, 2f);
+
                 break;
             case FallingGem.CueState.Late:
+                feedbackText.text = "Missed!";
+                feedbackText.color = perfectColor;
                 Debug.Log("Missed!");
                 break;
         }
 
 
+    }
+
+    void DeployRewardParticles(GameObject _gem)
+    {
+        
     }
 
 

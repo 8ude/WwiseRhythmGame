@@ -3,52 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{B553D9F5-1E89-4FB4-8FC5-1BC741D530C4}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="sfx_movement_jump20" ID="{C9DAD136-AC32-442B-9F83-FEA764268557}" ShortID="318268412">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{830FBF7D-C38A-479C-A44C-6F56AA50290A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="sfx_movement_jump20" ID="{E1DD6AA5-8E40-40D0-AF3E-19DDD8A89D93}">
-							<Language>SFX</Language>
-							<AudioFile>sfx_movement_jump20.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="563557586"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="sfx_movement_jump20" ID="{E1DD6AA5-8E40-40D0-AF3E-19DDD8A89D93}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="sfx_sounds_falling1" ID="{DA5130A3-EE46-4E9D-9613-A7E692D291C5}" ShortID="414725070">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{830FBF7D-C38A-479C-A44C-6F56AA50290A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="sfx_sounds_falling1" ID="{1E99AD4B-565E-418F-AC2C-4E25F742AA6D}">
-							<Language>SFX</Language>
-							<AudioFile>sfx_sounds_falling1.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1037792397"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="sfx_sounds_falling1" ID="{1E99AD4B-565E-418F-AC2C-4E25F742AA6D}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="temp_synth" ID="{DE1422C8-46E7-4850-975D-ED4A7A5BC502}" ShortID="961609017">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
@@ -130,6 +84,170 @@
 						<ActiveSource Name="Wwise Silence" ID="{BC3384B6-82EE-4106-BA19-6C71F995B18B}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="PosFeedback" ID="{EFDE47BE-B28C-45DD-BA6A-E98167B657E8}" ShortID="475702474">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{830FBF7D-C38A-479C-A44C-6F56AA50290A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="PosFeedback1" ID="{8642F7B8-9363-4DC9-A92A-9972ED9890D9}" ShortID="855844407">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{830FBF7D-C38A-479C-A44C-6F56AA50290A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PosFeedback1" ID="{640DB267-0922-4BA8-A65F-792D5FF4ECE1}">
+									<Language>SFX</Language>
+									<AudioFile>PosFeedback1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="303173552"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="PosFeedback1" ID="{640DB267-0922-4BA8-A65F-792D5FF4ECE1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PosFeedback2" ID="{78BE672D-9658-494E-816E-1062A915548E}" ShortID="53879206">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{830FBF7D-C38A-479C-A44C-6F56AA50290A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PosFeedback2" ID="{BEB51AD2-25FD-4BCB-A2CE-92A6B80DE482}">
+									<Language>SFX</Language>
+									<AudioFile>PosFeedback2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="605398013"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="PosFeedback2" ID="{BEB51AD2-25FD-4BCB-A2CE-92A6B80DE482}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PosFeedback3" ID="{5424B718-D62A-4522-9C73-04B6E886D769}" ShortID="798866786">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{830FBF7D-C38A-479C-A44C-6F56AA50290A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PosFeedback3" ID="{3C66B11C-FD5B-4208-86F0-1AFAEB572DCA}">
+									<Language>SFX</Language>
+									<AudioFile>PosFeedback3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="280786844"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="PosFeedback3" ID="{3C66B11C-FD5B-4208-86F0-1AFAEB572DCA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PosFeedback4" ID="{D7EA99B6-77AD-401D-9A21-E65F1FE2537D}" ShortID="290492695">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{830FBF7D-C38A-479C-A44C-6F56AA50290A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PosFeedback4" ID="{D2540002-B538-4DE9-8D59-35B32FCBE862}">
+									<Language>SFX</Language>
+									<AudioFile>PosFeedback4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="298613979"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="PosFeedback4" ID="{D2540002-B538-4DE9-8D59-35B32FCBE862}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="NegFeedback" ID="{0208723B-73F4-403F-B841-1B7FFE8B95B0}" ShortID="226546923">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{830FBF7D-C38A-479C-A44C-6F56AA50290A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="NegFeedback" ID="{1D161940-17EB-45E0-B6A3-E1F17A1A1213}" ShortID="854280635">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{830FBF7D-C38A-479C-A44C-6F56AA50290A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NegFeedback" ID="{442E939A-9242-4943-852A-046B5F36D198}">
+									<Language>SFX</Language>
+									<AudioFile>NegFeedback.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="868835711"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="NegFeedback" ID="{442E939A-9242-4943-852A-046B5F36D198}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NegFeedback2" ID="{AEB2C7BC-D29A-4CD9-90B7-0A9F36A4F83D}" ShortID="911966897">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{830FBF7D-C38A-479C-A44C-6F56AA50290A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NegFeedback2" ID="{683EA26F-A7BC-4B8D-BFB9-9A7C76F5BFD7}">
+									<Language>SFX</Language>
+									<AudioFile>NegFeedback2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1068532503"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="NegFeedback2" ID="{683EA26F-A7BC-4B8D-BFB9-9A7C76F5BFD7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -13,12 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID FALLSOUND = 1221274415U;
-        static const AkUniqueID JUMPSOUND = 1000191198U;
+        static const AkUniqueID NEGFEEDBACK = 1658084028U;
         static const AkUniqueID PLAYNOTEHIGHWAYMUSIC = 377537405U;
-        static const AkUniqueID PLAYRHYTHMHECKINMUSIC = 2897602606U;
+        static const AkUniqueID POSFEEDBACK = 278064396U;
         static const AkUniqueID STOPNOTEHIGHWAYMUSIC = 3188186427U;
-        static const AkUniqueID STOPRHYTHMHECKINMUSIC = 3304723600U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
@@ -40,6 +38,11 @@ namespace AK
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSICBUS = 2886307548U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID LOWFREQUENCIES = 3398478149U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

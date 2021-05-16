@@ -3,6 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{272F7351-F669-424B-A219-3ECD2F2082EA}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\crber\Desktop\BBCAcademy\"/>
 				<Property Name="Event Action List\{0130192A-8663-463B-BA15-34143CE01472}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{07ABA980-6EF3-42D9-88E9-47995FCD7885}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2E88FC22-2872-4ED9-810E-ECBA48E06A06}\x64_Expand States" Type="string" Value=""/>
@@ -41,8 +42,11 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
+				<Property Name="Music Transition List\{4DF7DF3B-FD1C-4D17-BE8A-9EAF2282F610}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{4FE223FB-FBB1-400D-8126-34ABD8E6C94B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{52CB9DF3-F8BD-47C6-9271-3C361FB507B0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{6627051C-74C2-4A3B-AC20-4EA5F43900A2}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{9D74A3AD-9339-4774-804F-200A5D96C9C2}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>

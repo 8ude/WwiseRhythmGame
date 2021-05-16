@@ -1,19 +1,19 @@
 Event	ID	Name			Wwise Object Path	Notes
+	278064396	PosFeedback			\Default Work Unit\PosFeedback	
 	377537405	PlayNoteHighwayMusic			\Default Work Unit\PlayNoteHighwayMusic	
+	1658084028	NegFeedback			\Default Work Unit\NegFeedback	
 	3188186427	StopNoteHighwayMusic			\Default Work Unit\StopNoteHighwayMusic	
-
-Game Parameter	ID	Name			Wwise Object Path	Notes
-	1196964411	ArpOn			\Default Work Unit\ArpOn	
-
-Effect plug-ins	ID	Name	Type				Notes
-	2599099929	ArpGain	Wwise Gain			
-	3308892858	ArpLevel	Wwise Meter			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	509367424	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\silence\Wwise Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	881191192	08 Two Bit Boss Battles	C:\Users\crber\Desktop\BBCAcademy\UnityWwiseRhythmGame\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\08 Two Bit Boss Battles_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\08 Two Bit Boss Battles		1833809
-	1027161693	RhythmGameArp	C:\Users\crber\Desktop\BBCAcademy\UnityWwiseRhythmGame\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\RhythmGameArp_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\RhythmGameArp		1332697
+	280786844	PosFeedback3	C:\Users\crber\Desktop\BBCAcademy\UnityWwiseRhythmGame\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\PosFeedback3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PosFeedback\PosFeedback3		286028
+	298613979	PosFeedback4	C:\Users\crber\Desktop\BBCAcademy\UnityWwiseRhythmGame\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\PosFeedback4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PosFeedback\PosFeedback4		521948
+	303173552	PosFeedback1	C:\Users\crber\Desktop\BBCAcademy\UnityWwiseRhythmGame\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\PosFeedback1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PosFeedback\PosFeedback1		316412
+	523810412	QWOPRevolution	C:\Users\crber\Desktop\BBCAcademy\UnityWwiseRhythmGame\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\QWOPRevolution_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\QWOPRevolution		686968
+	605398013	PosFeedback2	C:\Users\crber\Desktop\BBCAcademy\UnityWwiseRhythmGame\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\PosFeedback2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PosFeedback\PosFeedback2		349240
+	868835711	NegFeedback	C:\Users\crber\Desktop\BBCAcademy\UnityWwiseRhythmGame\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\NegFeedback_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NegFeedback\NegFeedback		65868
 	1030516904	TestMidi	C:\Users\crber\Desktop\BBCAcademy\UnityWwiseRhythmGame\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\TestMidi_98F6F069.wmid		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\TestMidi		34
+	1068532503	NegFeedback2	C:\Users\crber\Desktop\BBCAcademy\UnityWwiseRhythmGame\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\NegFeedback2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NegFeedback\NegFeedback2		64816
 
