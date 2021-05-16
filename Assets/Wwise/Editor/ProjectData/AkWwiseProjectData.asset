@@ -9,252 +9,279 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6d84e24403c5ce4bac510578ff637a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ecbdd63d2af26d468758e54d7f8b82d, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
   - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-    ParentPath: Default Work Unit
+      guid: 4324d4c9d8f602488bee23fb3f09b88f
+    ParentPath: Virtual Acoustics\Default Work Unit
     guid: 4324d4c9d8f602488bee23fb3f09b88f
     GuidInternal: 
-    m_lastTime: -8585871583927572155
+    m_lastTime: -8585804258206436782
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-    ParentPath: Default Work Unit
+      guid: 4a857d6160b36442a9fd7563999d440c
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 4a857d6160b36442a9fd7563999d440c
     GuidInternal: 
-    m_lastTime: -8585845702215750220
+    m_lastTime: -8585804258205868310
     List:
     - name: LowFrequencies
       guid: 17647bddcff05347ba98b094b0cdb0e6
       id: 3398478149
       PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
+        guid: 4a857d6160b36442a9fd7563999d440c
       - ElementName: Master Audio Bus
         ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
       - ElementName: MusicBus
         ObjectType: 2
+        guid: 27b24de007d9ed429e6c60f47bb92e65
       - ElementName: LowFrequencies
         ObjectType: 1
-      Path: Default Work Unit\Master Audio Bus\MusicBus\LowFrequencies
+        guid: 17647bddcff05347ba98b094b0cdb0e6
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MusicBus\LowFrequencies
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
       PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
+        guid: 4a857d6160b36442a9fd7563999d440c
       - ElementName: Master Audio Bus
         ObjectType: 2
-      Path: Default Work Unit\Master Audio Bus
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
     - name: MusicBus
       guid: 27b24de007d9ed429e6c60f47bb92e65
       id: 2886307548
       PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
+        guid: 4a857d6160b36442a9fd7563999d440c
       - ElementName: Master Audio Bus
         ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
       - ElementName: MusicBus
         ObjectType: 2
-      Path: Default Work Unit\Master Audio Bus\MusicBus
+        guid: 27b24de007d9ed429e6c60f47bb92e65
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MusicBus
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-    ParentPath: Default Work Unit
+      guid: 1d163824c600e64381ba4536edf3c11d
+    ParentPath: SoundBanks\Default Work Unit
     guid: 1d163824c600e64381ba4536edf3c11d
     GuidInternal: 
-    m_lastTime: -8585863967162461941
+    m_lastTime: -8585804257475572398
     List:
     - name: NoteHighway
       guid: 8b61833c15511c4fa063f43a7b6f644d
       id: 1268211518
       PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
+        guid: 1d163824c600e64381ba4536edf3c11d
       - ElementName: NoteHighway
         ObjectType: 7
-      Path: Default Work Unit\NoteHighway
+        guid: 8b61833c15511c4fa063f43a7b6f644d
+      Path: SoundBanks\Default Work Unit\NoteHighway
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-    ParentPath: Default Work Unit
+      guid: 6de5eaaec14eeb48818adbb4695ce2e1
+    ParentPath: Events\Default Work Unit
     guid: 6de5eaaec14eeb48818adbb4695ce2e1
     GuidInternal: 
-    m_lastTime: -8585845702215680406
+    m_lastTime: -8585804257186647374
     List:
-    - name: FallSound
-      guid: f7f8447185d2be42b387c4d54e3e99d0
-      id: 1221274415
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: FallSound
-        ObjectType: 3
-      Path: Default Work Unit\FallSound
-      maxAttenuation: 0
-      maxDuration: 0.795488
-      minDuration: 0.795488
-    - name: JumpSound
-      guid: 6771bbd01f15f24684cd29fd83ec2d38
-      id: 1000191198
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: JumpSound
-        ObjectType: 3
-      Path: Default Work Unit\JumpSound
-      maxAttenuation: 0
-      maxDuration: 0.139864
-      minDuration: 0.139864
     - name: PlayNoteHighwayMusic
       guid: 2a19300163863b46ba1534143ce01472
       id: 377537405
       PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
+        guid: 6de5eaaec14eeb48818adbb4695ce2e1
       - ElementName: PlayNoteHighwayMusic
         ObjectType: 3
-      Path: Default Work Unit\PlayNoteHighwayMusic
+        guid: 2a19300163863b46ba1534143ce01472
+      Path: Events\Default Work Unit\PlayNoteHighwayMusic
       maxAttenuation: 0
       maxDuration: 135.13794
       minDuration: 135.13794
-    - name: PlayRainDrop
-      guid: 80a9ab07f36ed94288e947995fcd7885
-      id: 2660076822
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: PlayRainDrop
-        ObjectType: 3
-      Path: Default Work Unit\PlayRainDrop
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: PlayRhythmHeckinMusic
-      guid: 5aaecd7df634f54ea99afa17e316a3c0
-      id: 2897602606
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: PlayRhythmHeckinMusic
-        ObjectType: 3
-      Path: Default Work Unit\PlayRhythmHeckinMusic
-      maxAttenuation: 0
-      maxDuration: 26.88
-      minDuration: 26.88
     - name: StopNoteHighwayMusic
       guid: 8a022565b158ef4193f049886f0fd62f
       id: 3188186427
       PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
+        guid: 6de5eaaec14eeb48818adbb4695ce2e1
       - ElementName: StopNoteHighwayMusic
         ObjectType: 3
-      Path: Default Work Unit\StopNoteHighwayMusic
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: StopRhythmHeckinMusic
-      guid: 22fc882e7228d94e810eecba48e06a06
-      id: 3304723600
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: StopRhythmHeckinMusic
-        ObjectType: 3
-      Path: Default Work Unit\StopRhythmHeckinMusic
+        guid: 8a022565b158ef4193f049886f0fd62f
+      Path: Events\Default Work Unit\StopNoteHighwayMusic
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-    ParentPath: Default Work Unit
+      guid: be950a66f6e4d44ab093fa9e3b67e008
+    ParentPath: Game Parameters\Default Work Unit
     guid: be950a66f6e4d44ab093fa9e3b67e008
     GuidInternal: 
-    m_lastTime: -8585845797076565770
+    m_lastTime: -8585804258205658872
     List:
     - name: ArpMeter
       guid: 90a1ffbfbf2c6a4f9118af3720b7ef76
       id: 2078123699
       PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
+        guid: be950a66f6e4d44ab093fa9e3b67e008
       - ElementName: ArpMeter
         ObjectType: 13
-      Path: Default Work Unit\ArpMeter
+        guid: 90a1ffbfbf2c6a4f9118af3720b7ef76
+      Path: Game Parameters\Default Work Unit\ArpMeter
     - name: ArpOn
       guid: 5a63d5aeeee2ca4fb6a3076882b54d3a
       id: 1196964411
       PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
+        guid: be950a66f6e4d44ab093fa9e3b67e008
       - ElementName: ArpOn
         ObjectType: 13
-      Path: Default Work Unit\ArpOn
+        guid: 5a63d5aeeee2ca4fb6a3076882b54d3a
+      Path: Game Parameters\Default Work Unit\ArpOn
     - name: MusicLevel
       guid: 2b1afc7fb7f5e14c8521c40ecb23b936
       id: 543979504
       PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
+        guid: be950a66f6e4d44ab093fa9e3b67e008
       - ElementName: MusicLevel
         ObjectType: 13
-      Path: Default Work Unit\MusicLevel
+        guid: 2b1afc7fb7f5e14c8521c40ecb23b936
+      Path: Game Parameters\Default Work Unit\MusicLevel
     - name: MusicMeter
       guid: c29700821aca6a45a6dc8c7c6983eec0
       id: 2562106129
       PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
+        guid: be950a66f6e4d44ab093fa9e3b67e008
       - ElementName: MusicMeter
         ObjectType: 13
-      Path: Default Work Unit\MusicMeter
+        guid: c29700821aca6a45a6dc8c7c6983eec0
+      Path: Game Parameters\Default Work Unit\MusicMeter
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-    ParentPath: Default Work Unit
+      guid: 1e57b0a9c2949444ae349d22293f0e19
+    ParentPath: States\Default Work Unit
     guid: 1e57b0a9c2949444ae349d22293f0e19
     GuidInternal: 
-    m_lastTime: -8585871583927213106
+    m_lastTime: -8585804258205678819
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-    ParentPath: Default Work Unit
+      guid: 974c2d5a3bdbcb45bb7a55ff6a0445e3
+    ParentPath: Switches\Default Work Unit
     guid: 974c2d5a3bdbcb45bb7a55ff6a0445e3
     GuidInternal: 
-    m_lastTime: -8585871583926674556
+    m_lastTime: -8585804258206097695
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-    ParentPath: Default Work Unit
+      guid: 4ce5279378003a4885ac301f2b989854
+    ParentPath: Triggers\Default Work Unit
     guid: 4ce5279378003a4885ac301f2b989854
     GuidInternal: 
-    m_lastTime: -8585871583926754340
+    m_lastTime: -8585804258206137592
     List: []
-  ExpandedItems:
-  - /RhythmGameTemplate_WwiseProject
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
+  AutoSyncSelection: 0
   autoPopulateEnabled: 1
+  currentDataSource: 0
   CurrentPluginConfig: 

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PluginInfo Project="RhythmGameTemplate_WwiseProject" Platform="Windows" BasePlatform="Windows">
+<PluginInfo Project="QWOPRevolution" Platform="Windows" BasePlatform="Windows">
 	<Plugins>
-		<Plugin Name="Wwise Silence" ID="6619138" DLL="AkSilenceGenerator"/>
-		<Plugin Name="Wwise Meter" ID="8454147" DLL="AkSoundEngineDLL"/>
-		<Plugin Name="Wwise Gain" ID="9109507" DLL="AkGain"/>
-		<Plugin Name="System" ID="11403271" DLL="DefaultSink"/>
-		<Plugin Name="No Output" ID="11862023" DLL="DefaultSink"/>
+		<Plugin Name="Wwise Silence" ID="6619138" DLL="AkSilenceGenerator" StaticLib="AkSilenceSource"/>
+		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="AkParametricEQ" StaticLib="AkParametricEQFX"/>
+		<Plugin Name="Wwise Meter" ID="8454147" DLL="AkSoundEngineDLL" StaticLib="AkMeterFX"/>
+		<Plugin Name="Wwise Gain" ID="9109507" DLL="AkGain" StaticLib="AkGainFX"/>
+		<Plugin Name="System" ID="11403271"/>
+		<Plugin Name="No Output" ID="11862023"/>
 	</Plugins>
 </PluginInfo>

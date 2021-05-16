@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{2438161D-00C6-43E6-81BA-4536EDF3C11D}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{2438161D-00C6-43E6-81BA-4536EDF3C11D}" SchemaVersion="103">
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{2438161D-00C6-43E6-81BA-4536EDF3C11D}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="NoteHighway" ID="{3C83618B-5115-4F1C-A063-F43A7B6F644D}">
 					<ObjectInclusionList>
 						<ObjectRef Name="StopNoteHighwayMusic" ID="{6525028A-58B1-41EF-93F0-49886F0FD62F}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="FallSound" ID="{7144F8F7-D285-42BE-B387-C4D54E3E99D0}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayNoteHighwayMusic" ID="{0130192A-8663-463B-BA15-34143CE01472}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="JumpSound" ID="{D0BB7167-151F-46F2-84CD-29FD83EC2D38}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="StopRhythmHeckinMusic" ID="{2E88FC22-2872-4ED9-810E-ECBA48E06A06}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PlayRhythmHeckinMusic" ID="{7DCDAE5A-34F6-4EF5-A99A-FA17E316A3C0}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

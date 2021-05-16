@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{617D854A-B360-4264-A9FD-7563999D440C}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{617D854A-B360-4264-A9FD-7563999D440C}" SchemaVersion="103">
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{617D854A-B360-4264-A9FD-7563999D440C}" PersistMode="Standalone">
 			<ChildrenList>
@@ -36,10 +36,13 @@
 											<ObjectRef Name="LowMeter" ID="{BE124899-25CD-4D78-B04D-A7954FE6B44D}" WorkUnitID="{D18E7E1E-DCB6-49A7-8222-43DA8C2CC13F}"/>
 										</Reference>
 									</ReferenceList>
+									<ObjectLists/>
 								</AuxBus>
 							</ChildrenList>
+							<ObjectLists/>
 						</Bus>
 					</ChildrenList>
+					<ObjectLists/>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" SchemaVersion="103">
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" PersistMode="Standalone">
 			<ChildrenList>
@@ -8,7 +8,7 @@
 						<Action Name="" ID="{A0C42F4E-5EB2-46B0-9A03-3FFE486BB218}" ShortID="1018515844">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="DistractingRhythmGame" ID="{52CB9DF3-F8BD-47C6-9271-3C361FB507B0}" WorkUnitID="{5142D0E9-31DD-4B24-9FFE-8C6ACB1EFCDB}"/>
+									<ObjectRef Name="RhythmGameTemplateMusic" ID="{F3A552B4-9C9F-4071-B454-D9F7BB887472}" WorkUnitID="{5142D0E9-31DD-4B24-9FFE-8C6ACB1EFCDB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -22,65 +22,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="DistractingRhythmGame" ID="{52CB9DF3-F8BD-47C6-9271-3C361FB507B0}" WorkUnitID="{5142D0E9-31DD-4B24-9FFE-8C6ACB1EFCDB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="PlayRhythmHeckinMusic" ID="{7DCDAE5A-34F6-4EF5-A99A-FA17E316A3C0}">
-					<ChildrenList>
-						<Action Name="" ID="{B79799E7-3B21-4EC2-898F-22100BE55127}" ShortID="302402268">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="RhythmHeckinMusic" ID="{4FE223FB-FBB1-400D-8126-34ABD8E6C94B}" WorkUnitID="{5142D0E9-31DD-4B24-9FFE-8C6ACB1EFCDB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="StopRhythmHeckinMusic" ID="{2E88FC22-2872-4ED9-810E-ECBA48E06A06}">
-					<ChildrenList>
-						<Action Name="" ID="{A2EA0FA4-9445-4811-B848-6D69A85F44DE}" ShortID="24622381">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="RhythmHeckinMusic" ID="{4FE223FB-FBB1-400D-8126-34ABD8E6C94B}" WorkUnitID="{5142D0E9-31DD-4B24-9FFE-8C6ACB1EFCDB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="JumpSound" ID="{D0BB7167-151F-46F2-84CD-29FD83EC2D38}">
-					<ChildrenList>
-						<Action Name="" ID="{14D2F87A-3C02-4C47-952E-2612F937B1B6}" ShortID="470735808">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_movement_jump20" ID="{C9DAD136-AC32-442B-9F83-FEA764268557}" WorkUnitID="{B553D9F5-1E89-4FB4-8FC5-1BC741D530C4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="FallSound" ID="{7144F8F7-D285-42BE-B387-C4D54E3E99D0}">
-					<ChildrenList>
-						<Action Name="" ID="{3E96A003-AE2E-454B-93E5-518BB58E2AB2}" ShortID="750020556">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_sounds_falling1" ID="{DA5130A3-EE46-4E9D-9613-A7E692D291C5}" WorkUnitID="{B553D9F5-1E89-4FB4-8FC5-1BC741D530C4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="PlayRainDrop" ID="{07ABA980-6EF3-42D9-88E9-47995FCD7885}">
-					<ChildrenList>
-						<Action Name="" ID="{BC81ED62-D49F-4ADE-8E98-018624F6EF8A}" ShortID="154903727">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Raindrop" ID="{73DAA0B9-1C02-46D8-A764-8D6A9CEC9C30}" WorkUnitID="{B553D9F5-1E89-4FB4-8FC5-1BC741D530C4}"/>
+									<ObjectRef Name="RhythmGameTemplateMusic" ID="{F3A552B4-9C9F-4071-B454-D9F7BB887472}" WorkUnitID="{5142D0E9-31DD-4B24-9FFE-8C6ACB1EFCDB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

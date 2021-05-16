@@ -2,8 +2,13 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	2886307548	MusicBus			\Default Work Unit\Master Audio Bus\MusicBus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3398478149	LowFrequencies			\Default Work Unit\Master Audio Bus\MusicBus\LowFrequencies	
+
 Effect plug-ins	ID	Name	Type				Notes
 	150724740	MusicMeterSequel	Wwise Meter			
+	836551220	LowMeter	Wwise Meter			
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

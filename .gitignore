@@ -9,13 +9,12 @@ build/
 builds/
 logs/
 bin/
-Library/
-Temp/
-Obj/
-Build/
-Builds/
-Logs/
-Bin/
+*/Library/
+*/Temp/
+*/Obj/
+
+*/Logs/
+*/Bin/
 
 # erroneous meta files
 library.meta
@@ -50,7 +49,7 @@ Assets/AssetStoreTools*
 AssetStoreTools.meta
 
 # Visual Studio cache directory
-.vs/
+*/.vs/
 
 # Rider
 **/.idea/**
